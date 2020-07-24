@@ -10,7 +10,7 @@ import io.ktor.routing.post
 
 fun  Routing.root() {
     get(path = "/"){
-        call.respondText(text = "My First ktor try :)",contentType = ContentType.Text.Plain)
+        call.respondText(text = "Keep Smiling :)",contentType = ContentType.Text.Plain)
     }
 }
 
